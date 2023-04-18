@@ -12,13 +12,6 @@ body{
     font-family: 'montserrat', sans-serif;
 }
 
-header{
-    height: 20em;
-    background-image: url(../imagenes/86773.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
 nav{
     height: 100px;
     width: 100%;
@@ -35,24 +28,30 @@ marquee{
 
 /*SmartPhone*/
 
-.logo{
+.logoPincipal{
 
-    height: 80px;
-    width: 80px;
-    margin-top: 1.5em;
+
+    margin-top: -15em;
     margin-left: 1.8em;
 }
 
-.bar-bnt{
+.logoPincipal img{
+    width: 80px;
+    height: 80px;
+    margin-top: -8em;
+}
+
+.botonBar{
     font-size: 25px;
-    margin-right: 20px;
+    margin-left: 20em ;
+    margin-top: 0;
     cursor: pointer;
     color:  #eaeaef;
 }
 
 .menuNav{
     position: fixed;
-    width: 100%;
+    width: 80%;
     height: 0vh;
     top: 100px;
     background-color: rgba(0, 0, 0, 50);
@@ -270,17 +269,22 @@ header{
     background-position: center;
 
     }
-.logo{
+.logoPincipal{
     height: 150px;
     width: 150px;
-    margin-top: 7em;
+    margin-top: -60em;
     margin-left: 3em;
 
 }
 
+.logoPincipal img{
+
+    margin-top: 13em;
+}
+
 .banner{
     margin-top: 18em;
-    
+   
 }
 
 .botones{
@@ -313,7 +317,7 @@ header{
 .menuNav{
     position: relative;
     line-height: 100px;
-    margin: 0 20px;
+   
     transition: none;
 }
 .menuNav li{
