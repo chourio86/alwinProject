@@ -95,7 +95,7 @@ marquee{
 
 /*Estilos Banner*/
 
-h1{
+/* h1{
     color: #eaeaef;
     text-align: center;
     background-color: rgba(0, 0, 255, 0.315);
@@ -105,7 +105,8 @@ h2{
     text-align: center;
     color: red;
     background-color: rgba(0, 0, 255, 0.315);
-}
+} */
+
 
 .botones{
     text-align: center;
@@ -163,15 +164,15 @@ h2{
     margin-top: 3em;
     margin-left: 2em;
 }
-p{
+/* p{
     text-align: center;
     background-color: gray;
     border-radius: 5px;
-}
- p:hover{
+} */
+/*  p:hover{
     background-color: #fe0944;
     color: white;
-}
+} */
 
 .imgBasico{
     width: 98vh;
@@ -347,13 +348,13 @@ header{
      rgba(0,212,255,1) 100%);
     
 }
-aside > h2{
+/* aside > h2{
     text-align: center;
     color: rgb(19, 18, 18);
     
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: medium;
-}
+} */
 
 
 
